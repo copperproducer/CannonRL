@@ -1,0 +1,4 @@
+#Set the below value to true to enable server-only mode for MoreCommands.
+#Clients will not need the mod to join the server when enabled.
+#Sun Nov 06 18:33:55 CST 2022
+serverOnly=false

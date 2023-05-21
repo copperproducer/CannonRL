@@ -1,0 +1,14 @@
+# Using vault enables the "pay"  argument in /tntfill
+useVault: false
+# Cost per tnt when using /tntfill <amount> pay
+tntCost: 0
+fillInHostile: true
+fillInAlly: true
+
+normalFill: "&9&l(!) &bYou've filled {dispensers} dispensers!"
+# /n is newline
+payFill: "&9&l(!) &bYou've filled {dispensers} dispensers./n&9&l(!) &bUsed TNT: &7{tntused}/n&9&l(!) &bTotal cost: &7${cost}"
+tntBankFill: "&9&l(!) &bYou've filled {dispensers} dispensers, your faction has {tntbank} tnt left."
+insufficientTNT: "&9&l(!) &bInsufficient TNT!"
+insufficientFunds: "&9&l(!) &bInsufficient funds!"
+missingArgument: "&9&l(!) &bMissing expected argument: <amount>"

@@ -36,7 +36,7 @@ def loadChunks(cannonPos, targetPos, player):
         z = z1 + dz * i / dx
         MLMC.setPos(player, x, y, z)
         MCWrapper.tickWarp(50)
-        time.sleep(.025)
+        time.sleep(.05)
     # finally, set the player to the target position
     MLMC.setPos(player, x2, y2, z2)
     return
@@ -58,7 +58,7 @@ def fillCannon(player, cannonPos, height):
 def setCannon(cannonSchem, cannonPos, player):
     start = time.time()
     MLMC.setPos(player, cannonPos[0], cannonPos[1], cannonPos[2])
-    time.sleep(.01)
+    time.sleep(.05)
     #print(f'fire setcannon cannonPos is: {cannonPos}')
     SchemCode.placeBlocksTarget(cannonSchem, cannonPos, player)
     fillCannon(player, cannonPos)

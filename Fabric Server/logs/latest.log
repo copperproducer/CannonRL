@@ -1,0 +1,266 @@
+[12:55:25] [main/INFO]: Loading Minecraft 1.18.2 with Fabric Loader 0.14.10
+[12:55:25] [ForkJoinPool-1-worker-4/WARN]: Mod com_github_isaiahpatton_specialsource uses the version master-SNAPSHOT which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'master'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[12:55:25] [main/INFO]: Loading 70 mods:
+	- architectury 4.9.83
+	- c2me 0.2.0+alpha.7.35
+	- c2me-base 0.2.0+alpha.7.35 via c2me
+	- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.7.35 via c2me
+	- c2me-fixes-general-threading-issues 0.2.0+alpha.7.35 via c2me
+	- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.7.35 via c2me
+	- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.7.35 via c2me
+	- c2me-notickvd 0.2.0+alpha.7.35 via c2me
+	- c2me-opts-allocs 0.2.0+alpha.7.35 via c2me
+	- c2me-opts-chunk-access 0.2.0+alpha.7.35 via c2me
+	- c2me-opts-chunkio 0.2.0+alpha.7.35 via c2me
+	- c2me-opts-math 0.2.0+alpha.7.35 via c2me
+	- c2me-opts-scheduling 0.2.0+alpha.7.35 via c2me
+	- c2me-opts-worldgen-general 0.2.0+alpha.7.35 via c2me
+	- c2me-opts-worldgen-vanilla 0.2.0+alpha.7.35 via c2me
+	- c2me-rewrites-chunkio 0.2.0+alpha.7.35 via c2me
+	- c2me-server-utils 0.2.0+alpha.7.35 via c2me
+	- c2me-threading-chunkio 0.2.0+alpha.7.35 via c2me
+	- c2me-threading-lighting 0.2.0+alpha.7.35 via c2me
+	- c2me-threading-scheduling 0.2.0+alpha.7.35 via c2me
+	- c2me-threading-worldgen 0.2.0+alpha.7.35 via c2me
+	- cardboard 60
+	- carpet 1.4.66
+	- chunkpregen 0.3.3
+	- chunky 1.2.164
+	- com_electronwill_night-config_core 3.6.5 via c2me
+	- com_electronwill_night-config_toml 3.6.5 via c2me
+	- com_github_isaiahpatton_specialsource master-SNAPSHOT via cardboard
+	- com_ibm_async_asyncutil 0.1.0 via c2me
+	- fabric-api 0.59.1+1.18.2
+	- fabric-api-base 0.4.4+d7c144a860 via fabric-api
+	- fabric-api-lookup-api-v1 1.6.2+2373a54560 via fabric-api
+	- fabric-biome-api-v1 8.0.6+651bcc5960 via fabric-api
+	- fabric-command-api-v1 1.1.9+d7c144a860 via fabric-api
+	- fabric-commands-v0 0.2.8+b4f4f6cd60 via fabric-api
+	- fabric-containers-v0 0.1.23+d7c144a860 via fabric-api
+	- fabric-content-registries-v0 3.1.1+c85f2e3860 via fabric-api
+	- fabric-convention-tags-v1 1.0.1+474e4f7960 via fabric-api
+	- fabric-crash-report-info-v1 0.2.1+ee261a3e60 via fabric-api
+	- fabric-data-generation-api-v1 3.0.2+9fcb91d260 via fabric-api
+	- fabric-dimensions-v1 2.1.20+489d6f8260 via fabric-api
+	- fabric-entity-events-v1 1.4.8+d7c144a860 via fabric-api
+	- fabric-events-interaction-v0 0.4.19+d7c144a860 via fabric-api
+	- fabric-events-lifecycle-v0 0.2.19+d7c144a860 via fabric-api
+	- fabric-game-rule-api-v1 1.0.13+d7c144a860 via fabric-api
+	- fabric-item-api-v1 1.5.2+17cbbd4360 via fabric-api
+	- fabric-item-groups-v0 0.3.14+91896a4960 via fabric-api
+	- fabric-lifecycle-events-v1 2.1.0+cc71601c60 via fabric-api
+	- fabric-loot-api-v2 1.1.0+1997ad1260 via fabric-api
+	- fabric-loot-tables-v1 1.1.2+e747827960 via fabric-api
+	- fabric-mining-level-api-v1 2.1.4+cc71601c60 via fabric-api
+	- fabric-networking-api-v1 1.0.23+2d30af4b60 via fabric-api
+	- fabric-networking-v0 0.3.10+b4f4f6cd60 via fabric-api
+	- fabric-object-builder-api-v1 2.1.3+032c981d60 via fabric-api
+	- fabric-particles-v1 0.2.12+526dc1ac60 via fabric-api
+	- fabric-registry-sync-v0 0.9.11+bb2e047760 via fabric-api
+	- fabric-rendering-data-attachment-v1 0.3.7+d7c144a860 via fabric-api
+	- fabric-rendering-fluids-v1 2.0.2+54e5b2ec60 via fabric-api
+	- fabric-resource-conditions-api-v1 2.0.3+91b7aa6660 via fabric-api
+	- fabric-resource-loader-v0 0.5.2+446e059560 via fabric-api
+	- fabric-screen-handler-api-v1 1.2.2+1f6558e860 via fabric-api
+	- fabric-transfer-api-v1 1.6.3+f4563ac860 via fabric-api
+	- fabric-transitive-access-wideners-v1 1.1.0+e747827960 via fabric-api
+	- fabricloader 0.14.10
+	- icommon 1.18
+	- java 17
+	- lithium 0.7.10
+	- minecraft 1.18.2
+	- org_threadly_threadly 6.6 via c2me
+	- starlight 1.0.2+fabric.89b8d9f
+[12:55:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/zacha/OneDrive/Desktop/Code%20Stuffs/MLMC/Fabric%20Server/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[12:55:25] [main/INFO]: Compatibility level set to JAVA_16
+[12:55:25] [main/INFO]: Compatibility level set to JAVA_17
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[12:55:25] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.threading.scheduling.mixin
+[12:55:25] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[12:55:25] [main/INFO]: Please wait, Scanning plugins for events...
+[12:55:26] [main/INFO]: Found: 3 (Took: 15ms)
+[12:55:26] [main/INFO]: Loading Libraries...
+[12:55:26] [main/INFO]: Debug: Loading library paper-api-1.17-dev.jar
+[12:55:26] [main/INFO]: Debug: Loading library sqlite-jdbc-3.21.0.1.jar
+[12:55:26] [main/INFO]: Debug: Loading library mysql-connector-java-5.1.46.jar
+[12:55:26] [main/INFO]: Debug: Loading library commons-lang-2.6.jar
+[12:55:26] [main/INFO]: Debug: Loading library commons-collections4-4.4.jar
+[12:55:26] [main/INFO]: Debug: Loading library commons-collections-3.2.1.jar
+[12:55:26] [main/WARN]: Reference map 'fabric-chunkpregen-refmap.json' for chunkpregen.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:55:26] [main/INFO]: Loaded configuration file for Lithium: 102 options available, 1 override(s) found
+[12:55:26] [main/INFO]: Architectury Mod detected! Disabling async chat from NetworkHandler.
+[12:55:26] [main/INFO]: Architectury Mod detected! Using alternative async chat from PlayerManager
+[12:55:26] [main/INFO]: =======================================================
+[12:55:26] [main/INFO]:  iCommon - Isaiah's common library for mods.
+[12:55:26] [main/INFO]:  Copyright (c) 2018-2021 by Isaiah. Running on MC 1.18.2
+[12:55:26] [main/INFO]: =======================================================
+[12:55:26] [main/INFO]: Applying mixin: MixinMinecraftServer...
+[12:55:26] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me]) disables it and children
+[12:55:26] [main/INFO]: Applying mixin: R1_18.MixinEntity...
+[12:55:26] [main/INFO]: Applying mixin: R1_18.MixinPlayer...
+[12:55:26] [main/INFO]: Applying mixin: R1_18.MixinBlockEntity...
+[12:55:26] [main/INFO]: Applying mixin: R1_18.MixinChestBlockEntity...
+[12:55:26] [main/INFO]: Applying mixin: R1_18.MixinCampfireBlockEntity...
+[12:55:26] [main/INFO]: Applying mixin: R1_18.MixinScreenHandler...
+[12:55:26] [main/INFO]: Applying mixin: R1_18.MixinChunkGenerator...
+[12:55:26] [main/INFO]: Applying mixin: R1_18.MixinPersistentStateManager...
+[12:55:26] [main/INFO]: Applying mixin: R1_18.MixinPlayerManager...
+[12:55:26] [main/INFO]: Applying mixin: R1_18.MixinHeighttmap...
+[12:55:26] [main/INFO]: Applying mixin: R1_18.MixinWorld_18...
+[12:55:31] [main/INFO]: 
+[12:55:31] [main/INFO]: Cardboard - CardboardPowered.org
+[12:55:31] [main/INFO]: 
+[12:55:31] [main/INFO]: Registered '6' iCommon events.
+[12:55:32] [main/INFO]: Reflection working: false
+[12:55:32] [main/INFO]: Cardboard mod Loaded.
+[12:55:32] [main/INFO]: iCommon Mod initialized.
+[12:55:33] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:55:34] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[12:55:34] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:55:34] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:55:34] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:55:34] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:55:34] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:55:35] [Worker-Main-12/INFO]: Loaded 7 recipes
+[12:55:35] [Worker-Main-12/INFO]: Loaded 7 recipes
+[12:55:35] [Worker-Main-12/INFO]: Loaded 1141 advancements
+[12:55:36] [main/INFO]: Applied 0 biome modifications to 0 of 61 new biomes in 2.718 ms
+[12:55:37] [Server thread/INFO]: Setting IServer instance..
+[12:55:37] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[12:55:37] [Server thread/INFO]: Loading properties
+[12:55:37] [Server thread/INFO]: Default game type: CREATIVE
+[12:55:37] [Server thread/INFO]: Generating keypair
+[12:55:37] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at net.minecraft.class_3176$1.run(class_3176.java:99) [server-intermediary.jar:?]
+[12:55:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:55:37] [Server thread/INFO]: Using default channel type
+[12:55:38] [Server thread/INFO]: This server is running Cardboard version git-10aaa31 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT)
+[12:55:38] [Server thread/INFO]: Debug logging is disabled
+[12:55:38] [Server thread/INFO]: Loading Bukkit plugins...
+[12:55:38] [Server thread/FATAL]: Could not load 'plugins\fabric-chunkpregen-0.3.4.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:140) ~[Cardboard-1.18.2.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:160) ~[paper-api-1.17-dev.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:120) ~[paper-api-1.17-dev.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:402) ~[Cardboard-1.18.2.jar:?]
+	at net.minecraft.class_3176.handler$zhg000$init(class_3176.java:1260) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3823(class_3176.java:158) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:670) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:273) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 9 more
+[12:55:38] [Server thread/FATAL]: Ambiguous plugin name `Sudo' for files `plugins\sudo.jar' and `plugins\Sudo-1.0-SNAPSHOT.jar' in `plugins'
+[12:55:38] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[12:55:39] [Server thread/WARN]: Legacy plugin Sudo v0.3.1 does not specify an api-version.
+[12:55:39] [Server thread/INFO]: [STDOUT]: net/minecraft/class_2535
+[12:55:39] [Server thread/WARN]: Legacy plugin TNTFill v2.0.2 does not specify an api-version.
+[12:55:39] [Server thread/INFO]: Loading Sudo v0.3.1
+[12:55:39] [Server thread/INFO]: Loading TNTFill v2.0.2
+[12:55:39] [Server thread/INFO]: 
+[12:55:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:55:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:55:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:55:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:55:39] [Server thread/INFO]: Preparing level "world"
+[12:55:39] [Server thread/INFO]: Setting IWorld for world "New World"
+[12:55:39] [Server thread/INFO]: [STDOUT]: on_world_init
+[12:55:40] [Server thread/INFO]: [STDOUT]: Initializing stronghold positions, this may take a while
+[12:55:40] [Server thread/INFO]: [STDOUT]: Stronghold positions initialized
+[12:55:40] [Server thread/INFO]: Setting IWorld for world "New World_the_end"
+[12:55:40] [Server thread/INFO]: [STDOUT]: on_world_init
+[12:55:40] [Server thread/INFO]: [STDOUT]: Initializing stronghold positions, this may take a while
+[12:55:40] [Server thread/INFO]: [STDOUT]: Stronghold positions initialized
+[12:55:40] [Server thread/INFO]: Setting IWorld for world "New World_nether"
+[12:55:40] [Server thread/INFO]: [STDOUT]: on_world_init
+[12:55:40] [Server thread/INFO]: [STDOUT]: Initializing stronghold positions, this may take a while
+[12:55:40] [Server thread/INFO]: [STDOUT]: Stronghold positions initialized
+[12:55:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:55:41] [C2ME worker #2/INFO]: Preparing spawn area: 0%
+[12:55:41] [C2ME worker #5/INFO]: Preparing spawn area: 0%
+[12:55:41] [C2ME worker #1/INFO]: Preparing spawn area: 0%
+[12:55:42] [C2ME worker #5/INFO]: Preparing spawn area: 8%
+[12:55:42] [C2ME worker #5/INFO]: Preparing spawn area: 8%
+[12:55:43] [C2ME worker #4/INFO]: Preparing spawn area: 8%
+[12:55:43] [C2ME worker #2/INFO]: Preparing spawn area: 76%
+[12:55:43] [Server thread/INFO]: Time elapsed: 3356 ms
+[12:55:43] [Server thread/INFO]: Preparing start region for world minecraft:overworld
+[12:55:43] [Server thread/INFO]: Time elapsed: 0 ms
+[12:55:43] [Server thread/INFO]: Preparing start region for world minecraft:the_end
+[12:55:44] [C2ME worker #5/INFO]: Preparing spawn area: 99%
+[12:55:44] [minecraft_the_end - Light/INFO]: Preparing spawn area: 100%
+[12:55:44] [Server thread/INFO]: Time elapsed: 634 ms
+[12:55:44] [Server thread/INFO]: Preparing start region for world minecraft:the_nether
+[12:55:44] [C2ME worker #5/INFO]: Preparing spawn area: 100%
+[12:55:44] [C2ME worker #3/INFO]: Preparing spawn area: 100%
+[12:55:45] [Server thread/INFO]: Time elapsed: 554 ms
+[12:55:45] [Server thread/INFO]: Enabling Sudo v0.3.1
+[12:55:45] [Server thread/INFO]: Enabling TNTFill v2.0.2
+[12:55:45] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:55:45] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:55:45] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:55:45] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:55:45] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:55:45] [Server thread/INFO]: Done (5.157s)! For help, type "help"
+[12:55:45] [Server thread/INFO]: Starting remote control listener
+[12:55:45] [Server thread/INFO]: Thread RCON Listener started
+[12:55:45] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[12:55:45] [Paper Scheduler Thread - 3/WARN]: Plugin Sudo v0.3.1 generated an exception while executing task 2
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at me.cmastudios.plugins.sudo.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at me.cmastudios.plugins.sudo.Metrics.access$400(Metrics.java:64) ~[?:?]
+	at me.cmastudios.plugins.sudo.Metrics$1.run(Metrics.java:245) ~[?:?]
+	at com.javazilla.bukkitfabric.impl.scheduler.BukkitTaskImpl.run(BukkitTaskImpl.java:74) ~[Cardboard-1.18.2.jar:?]
+	at com.javazilla.bukkitfabric.impl.scheduler.AsyncTaskImpl.run(AsyncTaskImpl.java:50) [Cardboard-1.18.2.jar:?]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:20) [Cardboard-1.18.2.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:56:38] [User Authenticator #0/INFO]: UUID of player CH3ST is bd3300c9-5f66-3b89-96b3-60ace0f14e95
+[12:56:38] [Server thread/INFO]: CH3ST[/127.0.0.1:49906] logged in with entity id 20 at (70741.5, -39.0, 6850100.5)
+[12:56:38] [Server thread/INFO]: CH3ST joined the game
+[12:56:52] [Server thread/INFO]: CH3ST lost connection: Disconnected
+[12:56:52] [Server thread/INFO]: CH3ST left the game
+[12:56:54] [Server thread/INFO]: Disabling TNTFill v2.0.2
+[12:56:54] [Server thread/INFO]: Disabling Sudo v0.3.1
+[12:56:54] [Server thread/INFO]: Stopping server
+[12:56:54] [Server thread/INFO]: Saving players
+[12:56:54] [Server thread/INFO]: Saving worlds
+[12:56:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[12:56:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[12:56:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[12:56:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:56:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:56:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:56:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:56:55] [Server thread/INFO]: Thread RCON Listener stopped
+[12:56:55] [Server thread/INFO]: Goodbye!
